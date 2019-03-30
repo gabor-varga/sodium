@@ -30,3 +30,25 @@
 *.exe
 *.out
 *.app
+
+# Project files
+*.code-workspace
+.vscode
+
+# Build directory
+build/examples/*
+build/tests/unit/*
+build/tests/perf/*
+!build/examples/.gitkeep
+!build/tests/*/.gitkeep
+
+# Ninja build logs
+.ninja_*
+build.sh
+
+# Doc html output directory
+doc/html
+doc/xml
+doc/build
+doc/source
+doc/Makefile
